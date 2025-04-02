@@ -4,6 +4,7 @@ Summary of Algorithm and Data Structure Concepts for coding test.
 [Study Process]
 
 1. 기초 개념 학습 (Core algorithm)
+
 ✅ 자료구조
 - 배열, 리스트, 해시테이블(Dictionary, HashMap)
 - 스택(Stack), 큐(Queue), 덱(Deque)
