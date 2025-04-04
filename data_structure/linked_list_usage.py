@@ -107,6 +107,38 @@ class LinkedList:
 
 
 
+def main():
+    
+    # 연결 리스트 생성
+    ll = LinkedList()
+
+    # 요소 추가
+    ll.append(10)
+    ll.append(20)
+    ll.append(30)
+    ll.print_list()  # 출력: 10 → 20 → 30 → None
+
+    # 삽입 (1번 인덱스에 15 삽입)
+    ll.insert(1, 15)
+    ll.print_list()  # 출력: 10 → 15 → 20 → 30 → None
+
+    # 삭제 (값 20 삭제)
+    ll.delete(20)
+    ll.print_list()  # 출력: 10 → 15 → 30 → None
+
+    # 탐색 (값 30의 인덱스 출력)
+    index = ll.search(30)
+    print("30의 인덱스:", index)  # 출력: 30의 인덱스: 2
+
+
+
+
+if __name__ == "__main__":
+    main()
+
+
+
+
 '''
 
 <Methods summary>
